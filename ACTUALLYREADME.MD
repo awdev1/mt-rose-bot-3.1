@@ -7,5 +7,5 @@ do cd TheDangerZone
 do node delete.js
 do node register.js
 do cd ..
-do node index.js
+do for /L %n in (1,0,2) do node index.js -e ts --exitcrash (this makes it so if the bot errors out it just restarts)
 done
