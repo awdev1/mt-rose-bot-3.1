@@ -310,7 +310,7 @@ module.exports = {
             }
 
             schedules[scheduleId] = {
-                userID: interaction.user.id, // Store userID instead of userId
+                userID: interaction.user.id, // Store userID 
                 day,
                 time,
                 amPm: amPmUpper,
@@ -545,7 +545,7 @@ module.exports = {
             }
 
             schedules[newScheduleId] = {
-                userID: interaction.user.id, // Store userID instead of userId
+                userID: interaction.user.id, // Store userID 
                 day,
                 time,
                 amPm: amPmUpper,
