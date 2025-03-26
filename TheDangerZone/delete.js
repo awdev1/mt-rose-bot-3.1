@@ -1,3 +1,7 @@
+// This is awdev speaking. PAY CLOSE ATTENTION.
+// I've intentionally made the code overly verbose and added wayyyyyyyy to many comments to explain the logic.
+// This is to help you understand the structure and flow of the bot code Neel.
+// This code TELLS DISCORD TO DELETE ALL THE COMMANDS REGISTERED IN THE BOT!
 const { Client, GatewayIntentBits, REST, Routes } = require('discord.js');
 require('dotenv').config(); // Load environment variables from .env file
 

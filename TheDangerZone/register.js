@@ -1,3 +1,7 @@
+// This is awdev speaking. PAY CLOSE ATTENTION.
+// I've intentionally made the code overly verbose and added wayyyyyyyy to many comments to explain the logic.
+// This is to help you understand the structure and flow of the bot code Neel.
+// This code tells discord to register the commands in the bot.
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId } = require('../config.json'); // Ensure these are set in config.json or .env
