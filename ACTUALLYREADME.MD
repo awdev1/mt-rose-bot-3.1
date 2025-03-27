@@ -8,4 +8,5 @@ do node delete.js
 do node register.js
 do cd ..
 do for /L %n in (1,0,2) do node index.js -e ts --exitcrash (this makes it so if the bot errors out it just restarts)
+for n in 1 0 2; do node index.js -e ts --exitcrash; done (windows)
 done
